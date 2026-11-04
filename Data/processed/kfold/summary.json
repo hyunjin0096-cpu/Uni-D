@@ -1,0 +1,65 @@
+{
+  "k": 5,
+  "seed": 42,
+  "development_images": 900,
+  "held_out_test_images": 100,
+  "folds": [
+    {
+      "fold": 1,
+      "train": {
+        "images": 720,
+        "rois": 771
+      },
+      "val": {
+        "images": 180,
+        "rois": 198
+      }
+    },
+    {
+      "fold": 2,
+      "train": {
+        "images": 720,
+        "rois": 777
+      },
+      "val": {
+        "images": 180,
+        "rois": 192
+      }
+    },
+    {
+      "fold": 3,
+      "train": {
+        "images": 720,
+        "rois": 771
+      },
+      "val": {
+        "images": 180,
+        "rois": 198
+      }
+    },
+    {
+      "fold": 4,
+      "train": {
+        "images": 720,
+        "rois": 779
+      },
+      "val": {
+        "images": 180,
+        "rois": 190
+      }
+    },
+    {
+      "fold": 5,
+      "train": {
+        "images": 720,
+        "rois": 778
+      },
+      "val": {
+        "images": 180,
+        "rois": 191
+      }
+    }
+  ],
+  "checks": "PASS: disjoint train/val/test; grouped similarity; each development image validates exactly once; all paths and labels exist",
+  "limitation": "No patient IDs; similarity grouping is heuristic. Test must not be used for fold/model selection."
+}

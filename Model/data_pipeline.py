@@ -22,9 +22,14 @@ def yolo_train_photometric(image):
     return image
 
 class PolypROIDataset(Dataset):
-    def __init__(self, split='train', augment=True, jitter=.10, size=352):
+    def __init__(self, split='train', augment=True, jitter=.10, size=352, fold=None):
         if split not in ('train','val','test'): raise ValueError(split)
         self.rows=[r for r in json.loads((ROOT/'Data/processed/roi_manifest.json').read_text()) if r['split']==split]
+        if fold is not None:
+            if split == 'test':
+                raise ValueError('Test is held out; use fold=None for final test evaluation')
+            manifest=ROOT/'Data/processed/kfold'/f'fold_{fold}'/f'unet_{split}.json'
+            self.rows=json.loads(manifest.read_text())
         self.augment=augment and split=='train'
         self.jitter=jitter if self.augment else 0
         self.size=size
