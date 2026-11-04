@@ -1,0 +1,146 @@
+{
+  "seed": 42,
+  "images": 1000,
+  "boxes": 1071,
+  "split_images": {
+    "train": 800,
+    "val": 100,
+    "test": 100
+  },
+  "split_rois": {
+    "train": 858,
+    "val": 111,
+    "test": 102
+  },
+  "box_count_histogram": {
+    "1": 945,
+    "3": 6,
+    "2": 47,
+    "10": 1,
+    "4": 1
+  },
+  "exact_duplicate_groups": [],
+  "similarity_candidates": [
+    [
+      "cju2hos57llxm08359g92p6jj",
+      "cju43kj2pm34f0850l28ahpni",
+      5
+    ],
+    [
+      "cju1b3zgj3d8e0801kpolea6c",
+      "cju5uget8krjy0818kvywd0zu",
+      5
+    ],
+    [
+      "cju5bycdkalkb09875f7bfrvx",
+      "cju5y84q3mdv50817eyp82xf3",
+      5
+    ],
+    [
+      "cju76lsehyia10987u54vn8rb",
+      "cju772304yw5t0818vbw8kkjf",
+      0
+    ],
+    [
+      "cju30bmab08bi0835mvlr6e0r",
+      "cju77k828z46w0871r0avuoo9",
+      2
+    ],
+    [
+      "cju5fydrud94708507vo6oy21",
+      "cju7avvi51iox0817ym55y6tt",
+      2
+    ],
+    [
+      "cju31y80qbawn0801twwm2l5s",
+      "cju7bb3ss1uoo0755pmhyco7t",
+      5
+    ],
+    [
+      "cju3umoh1geet0817cmpef5am",
+      "cju7dmlgf2ebw0871ieqas5fh",
+      5
+    ],
+    [
+      "cju323ypb1fbb0988gx5rzudb",
+      "cju7evxt12m730987rxivne3x",
+      5
+    ],
+    [
+      "cju357rxxdaz30878y2esjpjt",
+      "cju88rl5eo94l0850kf5wtrm1",
+      5
+    ],
+    [
+      "cju886ryxnsl50801r93jai7q",
+      "cju8amfdtqi4x09871tygrgqe",
+      0
+    ],
+    [
+      "cju8b0jr0r2oi0801jiquetd5",
+      "cju8bff9nrfi10850fmfzbf8v",
+      5
+    ],
+    [
+      "cju7ehljc2or70871261br8ai",
+      "cjyzufihqquiw0a46jatrbwln",
+      4
+    ]
+  ],
+  "similarity_groups": [
+    [
+      "cju1b3zgj3d8e0801kpolea6c",
+      "cju5uget8krjy0818kvywd0zu"
+    ],
+    [
+      "cju2hos57llxm08359g92p6jj",
+      "cju43kj2pm34f0850l28ahpni"
+    ],
+    [
+      "cju30bmab08bi0835mvlr6e0r",
+      "cju77k828z46w0871r0avuoo9"
+    ],
+    [
+      "cju31y80qbawn0801twwm2l5s",
+      "cju7bb3ss1uoo0755pmhyco7t"
+    ],
+    [
+      "cju323ypb1fbb0988gx5rzudb",
+      "cju7evxt12m730987rxivne3x"
+    ],
+    [
+      "cju357rxxdaz30878y2esjpjt",
+      "cju88rl5eo94l0850kf5wtrm1"
+    ],
+    [
+      "cju3umoh1geet0817cmpef5am",
+      "cju7dmlgf2ebw0871ieqas5fh"
+    ],
+    [
+      "cju5bycdkalkb09875f7bfrvx",
+      "cju5y84q3mdv50817eyp82xf3"
+    ],
+    [
+      "cju5fydrud94708507vo6oy21",
+      "cju7avvi51iox0817ym55y6tt"
+    ],
+    [
+      "cju76lsehyia10987u54vn8rb",
+      "cju772304yw5t0818vbw8kkjf"
+    ],
+    [
+      "cju7ehljc2or70871261br8ai",
+      "cjyzufihqquiw0a46jatrbwln"
+    ],
+    [
+      "cju886ryxnsl50801r93jai7q",
+      "cju8amfdtqi4x09871tygrgqe"
+    ],
+    [
+      "cju8b0jr0r2oi0801jiquetd5",
+      "cju8bff9nrfi10850fmfzbf8v"
+    ]
+  ],
+  "similarity_method": "64-bit dHash Hamming <=5; transitive groups stay in one split. Heuristic, not patient-level assurance.",
+  "patient_split_limitation": "Patient IDs unavailable; patient-level separation cannot be guaranteed."
+}

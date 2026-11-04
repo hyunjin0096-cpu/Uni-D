@@ -1,0 +1,1 @@
+PASS: all 1071 ROI pairs; 1000 YOLO labels; split isolation; 12 loader samples per split; deterministic validation/test; restoration placement; empty detection.
